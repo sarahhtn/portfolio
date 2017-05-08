@@ -1,0 +1,67 @@
+body {
+	background-color: #EFEFEF;
+	font-family: Helvetica, sans-serif;
+	margin: 0px;
+}
+
+#header-container {
+	padding: 16px;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	top: 0px;
+	background-color: #CCC;
+}
+
+#header-title {
+	display: inline-block;
+	color: white;
+	border: black 1px solid;
+}
+
+#links-menu-container {
+	display: inline-block;
+}
+
+#links-menu {
+	display: none;
+
+}
+#body-container {
+	margin: 70px auto;
+	width: 80%;
+	display: block;
+}
+
+.project {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	vertical-align: top;
+	color: white;
+	background-color: black;
+	margin: 20px;
+}
+
+.project-name{
+	padding-left: 16px;
+	padding-right: 32px;
+	padding-top: 24px;
+	font-size: 24px;
+}
+
+.blue {
+	background-color: #48ADCC;
+}
+
+.pink {
+	background-color: #FF749B;
+}
+
+.green {
+	background-color: #48AD1F;
+}
+
+.purple {
+	background-color: #7F3A46;
+}
